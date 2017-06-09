@@ -13,5 +13,5 @@ rl.on('line', function(line) {
 });
 
 rl.on('close', function() {
-  console.log("----------------FINISED READING----------------");
+  console.log("----------------FINISHED READING----------------");
 });
