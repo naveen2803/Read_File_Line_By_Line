@@ -2,7 +2,7 @@ var fs = require('fs');
 var readline = require('readline');
 var stream = require('stream');
 
-var instream = fs.createReadStream('<PATH_TO_FILE>');
+var instream = fs.createReadStream('<FILE_TO_READ>');
 var outstream = new stream;
 var rl = readline.createInterface(instream, outstream);
 var lineCount = 0;
